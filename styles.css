@@ -254,8 +254,6 @@ FEAUTURES SECTION
 }
 
 .service__tag {
-    border-width: 1px;
-    border-radius: 9999px;
     color: #6415ff;
 }
 
@@ -395,6 +393,7 @@ VALUES
 .values__container {
     display: flex;
     justify-content: center;
+    margin-bottom: 96px;
 }
 
 .values__info {
@@ -418,4 +417,167 @@ VALUES
     margin: 32px 0 0;
 }
 
-/* style this section in the morning */
+.values__highlight {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-style: solid;
+    border-radius: 9999px;
+    border-width: 1px;
+    border-color: rgb(226, 232, 240);
+    text-align: center;
+    padding-top: 10px;
+    background-color: #9ae6b4;
+}
+
+.values__highlight--2 {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-style: solid;
+    border-radius: 9999px;
+    border-width: 1px;
+    border-color: rgb(226, 232, 240);
+    text-align: center;
+    padding: 10px;
+    background-color: #feb2b2;
+}
+
+.values__highlights--text {
+    display: flex;
+    flex-direction: column;
+}
+
+.highlight {
+    display: flex;
+    align-items: center;
+}
+.values__highlights--text-pro { /* this is not best practice, just cant remember the correct way to do it */
+    padding-left: 16px;
+}
+
+.values__highlights--wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 40px 0 0;
+}
+
+.values__highlight--header {
+    color: #243e63;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 0 16px;
+}
+
+.values__highlight--para {
+    color: #718096;
+    font: 16px;
+    margin: 16px 0 0;
+}
+
+/* 
+
+PRICING SECTION 
+
+*/
+
+.pricing__header {
+    text-align: center;
+
+}
+
+.pricing__plans {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+.pricing__plan--wrapper {
+    width: calc(100% / 3);
+    padding: 8px 16px;
+
+}
+
+.pricing__plan {
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+    padding: 4px 0 0px;
+    border-style: solid;
+    border-radius: 1%;
+    border-color: #7c8ba1;
+    border-left: hidden;
+    border-right: hidden;
+    border-width: 1px;
+    border-top-width: 8px;
+    border-top-color: rgb(129, 230, 217);
+
+}
+
+
+.pricing__feature {
+    display: flex;
+    flex-direction: column;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: #7c8ba1;
+    margin: 0px ;
+    padding: 32px;
+}
+
+.plan__name {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+
+}
+
+.plan__price {
+    font-size: 48px;
+    color: #1a202c;
+    font-weight: 700;
+    margin: 8px 0;
+}
+
+.plan__duration {
+    font-size: 16px;
+    color: #a0aec0;
+
+}
+
+.pricing__plan--header {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0;
+}
+
+.pricing__feature--main {
+    color: #1a202c;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.pricing__feature--includes {
+    color: #718096;
+    font-size: 16px;
+    margin: 20px;
+}
+
+.button__buy-now--wrapper {
+    padding: 32px 64px;
+}
+
+.button__buy-now {
+    color: #f7fafc;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 16px 32px;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    width: 100%;
+    border-radius: 50px;
+    border-style: none;
+}
