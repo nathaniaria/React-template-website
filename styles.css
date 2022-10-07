@@ -47,7 +47,7 @@ li {
 }
 .row {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
     padding: 0 12px;
     align-items: center;
@@ -243,13 +243,13 @@ FEAUTURES SECTION
     flex-direction: row;
     align-items: flex-start;
     text-align: left;
+    padding: 24px 24px;
 }
 
 .service__description {
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin: 0 16px;
     padding: 0 16px 32px 16px;
 }
 
@@ -495,7 +495,7 @@ PRICING SECTION
 
 .pricing__plan--wrapper {
     width: calc(100% / 3);
-    padding: 8px 16px;
+    padding: 8px 8px;
 
 }
 
@@ -506,22 +506,19 @@ PRICING SECTION
     padding: 4px 0 0px;
     border-style: solid;
     border-radius: 1%;
-    border-color: #7c8ba1;
-    border-left: hidden;
-    border-right: hidden;
+    border-color: #e5e7eb;
     border-width: 1px;
     border-top-width: 8px;
     border-top-color: rgb(129, 230, 217);
-
 }
 
 
 .pricing__feature {
     display: flex;
     flex-direction: column;
-    border-width: 1px 0;
+    border-width: 0.5px 0;
     border-style: solid;
-    border-color: #7c8ba1;
+    border-color: #e5e7eb;
     margin: 0px ;
     padding: 32px;
 }
@@ -563,7 +560,8 @@ PRICING SECTION
 .pricing__feature--includes {
     color: #718096;
     font-size: 16px;
-    margin: 20px;
+
+    margin: 20px 0 0 0;
 }
 
 .button__buy-now--wrapper {
