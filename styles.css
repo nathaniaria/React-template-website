@@ -480,9 +480,29 @@ VALUES
 PRICING SECTION 
 
 */
+.pricing__container {
+    margin-bottom: 96px;
+}
+.pricing__pricing {
+    letter-spacing: .1em;
+}
+
+.pricing__h2 {
+    margin: 18px 0;
+    font-weight: 900 bold;
+}
+
+
+.pricing__para {
+    font-size: 18px;
+    color: #7c8ba1;
+
+}
 
 .pricing__header {
+    flex-direction: column;
     text-align: center;
+    width: 100%;
 
 }
 
@@ -578,4 +598,14 @@ PRICING SECTION
     width: 100%;
     border-radius: 50px;
     border-style: none;
+}
+
+/* 
+
+Testimonials Section
+
+*/
+
+.testimonials__container {
+    display: flex;
 }
