@@ -103,6 +103,11 @@ nav {
     padding: 16px;
 }
 
+.nav__link:hover {
+    text-decoration: underline;
+    transform: translateY(1px);
+}
+
 .nav__link--list {
     display: flex;
 
@@ -125,11 +130,25 @@ nav {
     translate: 32px;
 }
 
+.nav__link--treact:hover {
+    text-decoration: underline;
+    transition: all 300ms ease;
+    transform: translateY(1px);
+}
+
 .nav__link--btn {
     background-color: #6415ff;
-    border-radius: 9999px;
+    border-radius: 2rem;
     opacity: 1;
     padding: 0px 24px;
+    transition: all 300ms ease;
+
+}
+
+.nav__link--btn:hover {
+    background: #1a202c;
+    transition: all 300ms ease;
+    transform: translateY(1px);
 
 }
 
@@ -342,8 +361,18 @@ STYLING FOR MORE INFO SECTION
     border-radius: 9999px;
     border-style: none;
     box-shadow: #242424;
+    transition: all 300ms ease;
 
 }
+
+.button__learn-more:hover {
+        background: #1a202c;
+        transition: all 300ms ease;
+        transform: translateY(1px);
+        cursor: pointer;
+    
+}
+
 
 /* 
 
@@ -538,7 +567,7 @@ PRICING SECTION
     border-color: #e5e7eb;
     border-width: 1px;
     border-top-width: 8px;
-    border-top-color: rgb(129, 230, 217);
+    border-top-color:#6415ff
 }
 
 
@@ -603,10 +632,17 @@ PRICING SECTION
     font-weight: 700;
     cursor: pointer;
     padding: 16px 32px;
-    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    background: linear-gradient(115deg, rgb(100, 21, 255) 0%, rgb(100, 21, 250) 100%);
     width: 100%;
     border-radius: 50px;
     border-style: none;
+    transition: 600ms ease all;
+}
+
+.button__buy-now:hover {
+    background: #1a202c;
+    transition: all 300ms ease;
+    transform: translateY(1px);
 }
 
 /* 
@@ -717,6 +753,13 @@ Banner Above footer
     border-radius: 3rem;
     border-style: hidden;
     cursor: pointer;
+    transition: 300ms ease all;
+}
+
+.banner__button1:hover {
+    background-color: #242424;
+    transition: 300ms ease-in-out;
+    transform: translateY(1px);
 }
 
 .button__wrapper {
@@ -734,6 +777,13 @@ Banner Above footer
     border: 1px solid white;
     background: transparent;
     cursor: pointer;
+    transition: 300ms ease all;
+}
+
+.banner__button2:hover {
+    background-color: #242424;
+    transition: 300ms ease all;
+    transform: translateY(1px);
 }
 
 .button__wrapper {
@@ -835,8 +885,25 @@ Footer
     border-width: 1px;
     border-color: white;
     cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.socials__border:hover {
+        background: #1a202c;
+        transition: all 300ms ease;
+        transform: translateY(1px);
+        cursor: pointer;
+    
 }
 
 .socials__img {
     color: white;
 }
+
+
+/* 
+
+RESPONSIVENESS
+
+*/
+
