@@ -64,8 +64,14 @@ img {
     color: #6415ff;
 }
 
+.gold {
+    color: gold;
+}
+
 .text__weight {
     font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
 }
 
 a {
@@ -481,7 +487,7 @@ PRICING SECTION
 
 */
 .pricing__container {
-    margin-bottom: 96px;
+    margin: 96px 0;
 }
 .pricing__pricing {
     letter-spacing: .1em;
@@ -605,7 +611,209 @@ PRICING SECTION
 Testimonials Section
 
 */
-
+.header__testimonials {
+    padding: 4px 0 0 0;
+}
 .testimonials__container {
     display: flex;
+    padding: 96px 0;
+}
+
+.testimonials__text--wrapper {
+    width: 50%;
+    padding-left: 32px;
+}
+
+.testimonials__img--wrapper {
+    width: 50%;
+}
+
+.testimonials__h3 {
+    padding: 8px 0 ;
+}
+.testimonials__para {
+    padding-top: 12px;
+}
+
+.testimonials__customer {
+    padding: 24px 0 0 0;
+}
+
+.customer__img {
+    width: 88px;
+    height: 88px;
+    border-style: hidden;
+    border-radius: 50%;
+}
+
+.customer__info {
+    padding-left: 16px;
+}
+
+h6 {
+    padding-bottom: 4px;
+}
+
+h5 {
+    color:#7c8ba1;
+    font-weight: 400;
+}
+
+.customer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0 0 0;
+}
+
+.customer {
+    display: flex;
+    align-items: center;
+}
+
+/* 
+
+Banner Above footer 
+
+*/
+
+.banner__container {
+    padding: 96px 0;
+}
+
+.banner__box {
+    width: 100%;
+    height: 280px;
+    display: flex;
+    border-radius: 0.6rem;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(115deg, rgb(100, 21, 255) 0%, rgb(100, 21, 250) 100%);
+}
+
+.banner__content {
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.banner__text {
+    font-size: 32px;
+    padding-left: 24px;
+    font-weight: 900;
+    align-items: center;
+}
+
+.banner__button1 {
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    padding-right: 12px;
+    padding: 20px 36px;
+    background-color: #f56565;
+    border-radius: 3rem;
+    border-style: hidden;
+    cursor: pointer;
+}
+
+.button__wrapper {
+    display: flex;
+}
+
+
+.banner__button2 {
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    margin: 0 8px;
+    padding: 20px 36px;
+    border-radius: 3rem;
+    border: 1px solid white;
+    background: transparent;
+    cursor: pointer;
+}
+
+.button__wrapper {
+    padding-left: 24px;
+}
+
+/*
+
+Footer 
+
+*/
+
+.footer__container {
+    margin-top: 96px;
+    width: 100%;
+    height: 522px;
+    background: linear-gradient(115deg, rgb(100, 21, 255) 0%, rgb(100, 21, 250) 100%);
+}
+
+.footer__columns {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.footer__columns--info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.footer__headers {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-bottom: 24px;
+    color: white;
+}
+
+.line__breaker {
+    margin-top: 54px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #4a4a4b;
+    opacity: 0.3;
+
+}
+
+.link__footer {
+    font-size: 14px;
+    margin-bottom: 12px;
+    padding: 0 0 4px;
+    color: white;
+}
+
+.footer__info {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 96px;
+}
+
+.logo {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+}
+
+
+.logo__heading {
+    display: flex;
+    align-items: center;
+}
+
+.footer__h4 {
+    padding: 0 0 0 4px;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.copywright {
+    color: white;
+
 }
