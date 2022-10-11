@@ -89,7 +89,7 @@ a {
 nav {
     height: 100px;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -185,8 +185,11 @@ nav {
 .menu--open .menu__backdrop {
     visibility: visible;
     opacity: 1;
+    display: block;
 }
-
+.menu--open .btn__menu--close {
+    display: block;
+}
 .menu--open {
     max-height: 100vh;
     overflow-y: hidden;
@@ -222,7 +225,7 @@ nav {
 
 .container--landing {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
