@@ -972,6 +972,10 @@ Footer
 
 }
 
+.socials {
+    display: none;
+}
+
 .socials__border {
     border-style: solid;
     border-radius: 2rem;
@@ -1111,6 +1115,7 @@ RESPONSIVENESS
     align-items: center;
     justify-content: center;
     max-width: 100%;
+    margin-bottom: 192px;
    }
 
 
@@ -1191,7 +1196,11 @@ RESPONSIVENESS
     button {
         font-size: 18px;
     }
+    .get-started--info {
+        flex-direction: column;
+        align-items: center;
 
+    }
 
 }
 
